@@ -1,6 +1,6 @@
 public class TimSort {
     private static int iterationsCount = 0;
-    private static final int MIN_MERGE = 32;
+    private static final int MIN_MERGE = 64;
 
     // Стек для хранения прогонов
     private static int[] runStart;
